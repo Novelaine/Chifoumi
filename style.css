@@ -1,0 +1,58 @@
+*{margin:0;padding:0;}
+/*body{background-color: rgb(194, 189, 189);}*/
+#imgfond{position:fixed}
+section{padding: 10px;}
+.hero{text-align: left; position: absolute;}
+.adversaire{text-align: right; position: relative;}
+#chifoumi{
+    width: 55%;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+    margin-top: 240px;  
+    background-color:rgba(248, 211, 142, 0.794);
+    position: relative;
+} 
+label{font-size: large;text-transform: uppercase;color:rgb(255 247 0);}
+.bouton{padding-top: 10px;}
+#para{
+    z-index: 1;
+}
+button{
+    width: auto;
+    margin: 0px 30px;
+    color: wheat;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 0;
+}
+.bouton button:nth-child(1){
+    background-image: url(pierre.png);
+    padding: 41px 22px;
+}
+.bouton button:nth-child(2){
+    background-image: url(feuille.png);
+    padding: 41px 18px;
+}
+.bouton button:nth-child(3){
+    background-image: url(ciseaux.png);
+    padding: 41px 16px;
+}
+
+@media only screen and (max-width: 930px){
+    #chifoumi{
+        width: 84%;
+        margin-top: 141px;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    #chifoumi{
+        width: 80%;
+        height: 100%;
+        margin-top: 71px;
+    }
+    button{
+    margin: 0px 0px 17px;
+    }
+}
