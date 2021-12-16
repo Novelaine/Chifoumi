@@ -44,7 +44,7 @@ for( let i = 0; i < buttons.length; i++){
     if(prog1.value <= 5 ){
         section.innerHTML = "Tu as perdu ! Retente ta chance <button style='margin:40px;'><a href='index.html' style='text-decoration:none;color:rgb(255 247 0);background:rgb(31 31 31);padding:8px;'>Rejouer</a></button>";
     }else if(prog2.value <=5){
-        section.innerHTML = "Tu as gagnez ! Retente ta chance de gangnez <button style='margin:40px;'><a href='index.html' style='text-decoration:none;color:rgb(255 247 0);background:rgb(31 31 31);padding:8px;'>Rejouer</a></button>";
+        section.innerHTML = "Tu as gagnez ! Retente ta chance de gagnez <button style='margin:40px;'><a href='index.html' style='text-decoration:none;color:rgb(255 247 0);background:rgb(31 31 31);padding:8px;'>Rejouer</a></button>";
     }
     })
 }    
