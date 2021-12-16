@@ -36,7 +36,7 @@ button{
 }
 .bouton button:nth-child(3){
     background-image: url(ciseaux.png);
-    padding: 41px 16px;
+    padding: 41px 22px;
 }
 
 @media only screen and (max-width: 930px){
