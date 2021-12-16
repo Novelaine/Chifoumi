@@ -31,13 +31,13 @@ for( let i = 0; i < buttons.length; i++){
         para.textContent = "Vous avez perdu ! Vous avez choisi feuille, Ordi à choisi ciseaux !";
     }else if(player === "ciseaux" && robot === "feuille"){
         prog2.value -= 25;
-        para.textContent = "Vous avez Gagnez ! Vous avez choisi ciseaux, Ordi à choisi feuille !";
+        para.textContent = "Vous avez Gagnez ! Vous avez choisi ciseau, Ordi à choisi feuille !";
     }else if(player === "ciseaux" && robot === "pierre"){
         prog1.value -= 25;
-        para.textContent = "Vous avez perdu ! Vous avez choisi ciseaux, Ordi à choisi pierre !";
+        para.textContent = "Vous avez perdu ! Vous avez choisi ciseau, Ordi à choisi pierre !";
     }else if(player === "pierre" && robot === "ciseaux"){
         prog2.value -= 25;
-        para.textContent = "Vous avez Gagnez ! Vous avez choisi pierre, Ordi à choisi ciseaux !";
+        para.textContent = "Vous avez Gagnez ! Vous avez choisi pierre, Ordi à choisi ciseau !";
     }
 
 
